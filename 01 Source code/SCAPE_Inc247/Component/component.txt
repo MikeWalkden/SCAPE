@@ -1,0 +1,6 @@
+TEMPLATESPATH
+C:\FortranProjects\SCAPE\Component\
+ENGINEWRAPPERPATH
+C:\FortranProjects\SCAPE\ENGINE\Release\Win32\Engine_Wrapper.dll
+FLUIDEARTHPATH
+C:\Source\FluidEarth2_Sdk\bin\x86\Debug\FluidEarth2_Sdk.exe

@@ -1,0 +1,25 @@
+var namespaces =
+[
+    [ "beach_location_module", "namespacebeach__location__module.html", null ],
+    [ "dump_module", "namespacedump__module.html", null ],
+    [ "exceptions", "namespaceexceptions.html", null ],
+    [ "expand_sf_module", "namespaceexpand__sf__module.html", null ],
+    [ "finish_module", "namespacefinish__module.html", null ],
+    [ "fromint_module", "namespacefromint__module.html", null ],
+    [ "global_data", "namespaceglobal__data.html", null ],
+    [ "initialise_module", "namespaceinitialise__module.html", null ],
+    [ "local_data", "namespacelocal__data.html", null ],
+    [ "normal_func", "namespacenormal__func.html", null ],
+    [ "platform_erosion_module", "namespaceplatform__erosion__module.html", null ],
+    [ "regfalls3_module", "namespaceregfalls3__module.html", null ],
+    [ "sediment_transport_module", "namespacesediment__transport__module.html", null ],
+    [ "setup_module", "namespacesetup__module.html", null ],
+    [ "slr_module", "namespaceslr__module.html", null ],
+    [ "slump_module", "namespaceslump__module.html", null ],
+    [ "timestep_module", "namespacetimestep__module.html", null ],
+    [ "utilities_module", "namespaceutilities__module.html", null ],
+    [ "vertical_grid", "namespacevertical__grid.html", null ],
+    [ "wave_transformation_module", "namespacewave__transformation__module.html", null ],
+    [ "xshore_dist_t_data", "namespacexshore__dist__t__data.html", null ],
+    [ "xshore_dist_t_module", "namespacexshore__dist__t__module.html", null ]
+];
