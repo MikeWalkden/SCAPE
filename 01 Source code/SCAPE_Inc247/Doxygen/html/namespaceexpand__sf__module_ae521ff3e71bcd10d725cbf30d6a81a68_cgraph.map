@@ -1,5 +1,0 @@
-<map id="expand_sf_module::read_sf" name="expand_sf_module::read_sf">
-<area shape="rect" id="node2" href="$namespaceutilities__module.html#a88861ad97c41598219fab3b77fe685e5" title="Opens a text file for input and return a success_code value. " alt="" coords="233,5,377,47"/>
-<area shape="rect" id="node4" href="$namespaceexceptions.html#abeff94ba7cb1b2eea71e2ab64b2ba5af" title="Test iostat to return success code. " alt="" coords="427,64,570,105"/>
-<area shape="rect" id="node3" href="$namespaceutilities__module.html#a9a22dc4f187ed32c895a2404550f749f" title="Support for FluidEarth (OpenMI) logging. " alt="" coords="425,13,572,39"/>
-</map>

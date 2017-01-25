@@ -1,5 +1,0 @@
-<map id="setup_module::log_dp_values" name="setup_module::log_dp_values">
-<area shape="rect" id="node2" href="$namespacesetup__module.html#af6a133ffc54e5f2d27390da9b6227f2e" title="Write all the parameters to the log file in a format which can be read by INITIALISE_PARAMETERS(). " alt="" coords="203,13,403,39"/>
-<area shape="rect" id="node3" href="$namespaceinitialise__module.html#af9414cb6875872432d6cc993285b26a4" title="FluidEarth entry point, also called from RUN_SCAPE. " alt="" coords="451,5,577,47"/>
-<area shape="rect" id="node4" href="$_r_u_n___s_c_a_p_e_8f90.html#a245c8bb9027892d128342b5a64dd42dd" title="Main program to run SCAPE freestanding. " alt="" coords="625,13,760,39"/>
-</map>
