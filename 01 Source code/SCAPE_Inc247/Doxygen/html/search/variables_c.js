@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['nactivelayers',['nactivelayers',['../namespaceglobal__data.html#a5008efc34d444f6d6e6101bd01040ed7',1,'global_data']]],
+  ['nce',['nce',['../namespaceglobal__data.html#a610dc2fd25e9052f4a13496fbd4cb92b',1,'global_data']]],
+  ['ncliffsimulations',['ncliffsimulations',['../namespacesetup__module.html#a5aa6f0d7fccdd00e40baf8ce41672a5f',1,'setup_module']]],
+  ['next_5findex',['next_index',['../namespacevertical__grid.html#a4496d95a390b57e04da287ab7a728e9d',1,'vertical_grid']]],
+  ['nextoutputyear',['nextoutputyear',['../namespacelocal__data.html#a1120cfa0f8a695755e2fe6e33136e314',1,'local_data']]],
+  ['ngroynes',['ngroynes',['../namespaceglobal__data.html#a4414b20f7ca757583d3bb2892df94737',1,'global_data']]],
+  ['nhcells',['nhcells',['../namespacevertical__grid.html#a7d4b3aef1beffb7cbe7cea5a4eb75c0e',1,'vertical_grid']]],
+  ['nlayers',['nlayers',['../namespacesetup__module.html#a57c0cb5b0384b060b4321a599da76278',1,'setup_module']]],
+  ['np_5fcliff',['np_cliff',['../namespaceglobal__data.html#ab5fa41fb688d394d4ebfaff8ea6c8996',1,'global_data']]],
+  ['np_5fsf_5fdrift',['np_sf_drift',['../namespacexshore__dist__t__data.html#a355bea5ac571ee73b8b1ab5774bb475c',1,'xshore_dist_t_data']]],
+  ['np_5fsf_5ferode',['np_sf_erode',['../namespacexshore__dist__t__data.html#a1c2fddb8eef33d448cc03f78610ff897',1,'xshore_dist_t_data']]],
+  ['np_5fsf_5fnew_5fdrift',['np_sf_new_drift',['../namespaceglobal__data.html#a3f25707ffd6a0d285f7c2897985f8790',1,'global_data']]],
+  ['np_5fsf_5fnew_5ferode',['np_sf_new_erode',['../namespaceglobal__data.html#ad7245676ec711e900d38adf4515df431',1,'global_data']]],
+  ['nqpoints',['nqpoints',['../namespaceglobal__data.html#ac8ae86bd997785d2326d88ebb9d450b5',1,'global_data']]],
+  ['nsections',['nsections',['../namespacesetup__module.html#ad4e370990370870911fdf50649c3f53e',1,'setup_module']]],
+  ['ntide',['ntide',['../namespaceglobal__data.html#aaace78b6836b9d3a964563573e0ec250',1,'global_data']]],
+  ['nvsect',['nvsect',['../namespacelocal__data.html#a63047b6f40af4933c1e5a95729401dc9',1,'local_data']]],
+  ['nwavepoints',['nwavepoints',['../namespacesetup__module.html#a2abb8389f11d5d75aee1ea6601eafaf3',1,'setup_module']]],
+  ['nysections',['nysections',['../namespaceglobal__data.html#a7fd71fff6d75ce390dc3169bae61e28a',1,'global_data']]]
+];
