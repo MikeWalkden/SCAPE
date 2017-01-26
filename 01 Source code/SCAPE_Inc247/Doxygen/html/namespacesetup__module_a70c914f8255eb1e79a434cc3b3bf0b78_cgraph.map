@@ -1,0 +1,9 @@
+<map id="setup_module::initialise_parameters" name="setup_module::initialise_parameters">
+<area shape="rect" id="node2" href="$namespaceutilities__module.html#a9a22dc4f187ed32c895a2404550f749f" title="Support for FluidEarth (OpenMI) logging. " alt="" coords="224,5,371,32"/>
+<area shape="rect" id="node3" href="$namespaceutilities__module.html#ad2f4002913de9a066d2e541d9b90df87" title="Returns a unit number that is not in use. " alt="" coords="228,57,367,98"/>
+<area shape="rect" id="node4" href="$namespaceexceptions.html#abeff94ba7cb1b2eea71e2ab64b2ba5af" title="Test iostat to return success code. " alt="" coords="451,261,594,302"/>
+<area shape="rect" id="node5" href="$namespacesetup__module.html#a02d6c00cb2b0e62d50c0e4865d1992c9" title="Convert given string to upper case. " alt="" coords="212,173,383,200"/>
+<area shape="rect" id="node6" href="$namespaceexceptions.html#ab1982976e08c1eb3195c39be80d42c76" title="Test allocation result to return success code. " alt="" coords="222,225,373,266"/>
+<area shape="rect" id="node7" href="$namespacesetup__module.html#a8e000ec96010d2de6916f8b08b632f4d" title="Read data for modification of wave values by year. Raise exceptions for missing or invalid parameters..." alt="" coords="229,290,365,331"/>
+<area shape="rect" id="node8" href="$namespaceexceptions.html#adb88d6f61ab18ab53a1d0c7c7022af3c" title="Log a failure message. " alt="" coords="431,341,615,368"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="setup_module::uppercase" name="setup_module::uppercase">
+<area shape="rect" id="node2" href="$namespacesetup__module.html#a70c914f8255eb1e79a434cc3b3bf0b78" title="Initialise parameters by reading from the setup.txt file. " alt="" coords="224,5,383,47"/>
+<area shape="rect" id="node5" href="$namespacesetup__module.html#abb8779e7a5cbb083e7c99427a5a91c15" title="Test if strings are equal ignoring case. " alt="" coords="232,71,375,112"/>
+<area shape="rect" id="node3" href="$namespaceinitialise__module.html#af9414cb6875872432d6cc993285b26a4" title="FluidEarth entry point, also called from RUN_SCAPE. " alt="" coords="431,5,557,47"/>
+<area shape="rect" id="node4" href="$_r_u_n___s_c_a_p_e_8f90.html#a245c8bb9027892d128342b5a64dd42dd" title="Main program to run SCAPE freestanding. " alt="" coords="605,13,740,39"/>
+</map>

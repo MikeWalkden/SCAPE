@@ -1,0 +1,5 @@
+<map id="sediment_transport_module::sediment_transport" name="sediment_transport_module::sediment_transport">
+<area shape="rect" id="node2" href="$namespacesediment__transport__module.html#a7adc8f885e9b48f52e222690ec3e30e5" title="Exchange material between the bar and the beach New, 130602, see p151(10) " alt="" coords="244,5,432,47"/>
+<area shape="rect" id="node4" href="$namespacesetup__module.html#a4ef499eb3b2e377e92bc9aa4ee6a7428" title="Returns the groyne effect value for a given beach width. Within the range zero (no effect) and 1 (gro..." alt="" coords="263,71,413,112"/>
+<area shape="rect" id="node3" href="$namespacesetup__module.html#aecb4f96b2e02c8a8d3bcc45e06ba1dc1" title="Returns the offshore sediment transport rate for a given wave height and period. " alt="" coords="480,5,636,47"/>
+</map>

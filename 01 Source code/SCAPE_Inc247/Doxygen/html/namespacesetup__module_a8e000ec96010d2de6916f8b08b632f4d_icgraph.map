@@ -1,0 +1,5 @@
+<map id="setup_module::read_modify_year_data" name="setup_module::read_modify_year_data">
+<area shape="rect" id="node2" href="$namespacesetup__module.html#a70c914f8255eb1e79a434cc3b3bf0b78" title="Initialise parameters by reading from the setup.txt file. " alt="" coords="189,5,348,47"/>
+<area shape="rect" id="node3" href="$namespaceinitialise__module.html#af9414cb6875872432d6cc993285b26a4" title="FluidEarth entry point, also called from RUN_SCAPE. " alt="" coords="396,5,523,47"/>
+<area shape="rect" id="node4" href="$_r_u_n___s_c_a_p_e_8f90.html#a245c8bb9027892d128342b5a64dd42dd" title="Main program to run SCAPE freestanding. " alt="" coords="571,13,705,39"/>
+</map>
