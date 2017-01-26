@@ -1,6 +1,0 @@
-<map id="beach_location_module::beach_location" name="beach_location_module::beach_location">
-<area shape="rect" id="node2" href="$namespaceplatform__erosion__module.html#af50f8ee486255dd818a20c0e65795c5e" title="Calculate crossbeach exchange during storm waves. " alt="" coords="212,5,379,47"/>
-<area shape="rect" id="node3" href="$namespacetimestep__module.html#ab7438249ea2939c60b42804aea100c8d" title="timestep_module::update" alt="" coords="427,42,595,69"/>
-<area shape="rect" id="node4" href="$namespaceinitialise__module.html#af9414cb6875872432d6cc993285b26a4" title="FluidEarth entry point, also called from RUN_SCAPE. " alt="" coords="643,5,769,47"/>
-<area shape="rect" id="node5" href="$_r_u_n___s_c_a_p_e_8f90.html#a245c8bb9027892d128342b5a64dd42dd" title="Main program to run SCAPE freestanding. " alt="" coords="817,42,952,69"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="platform_erosion_module::crossbeach_exchange" name="platform_erosion_module::crossbeach_exchange">
-<area shape="rect" id="node2" href="$namespacesetup__module.html#adbf70d058a7b46fd6fd0341aca2aeb86" title="Returns the croosbeach sediment transport rate for a given wave height and period. " alt="" coords="220,5,399,47"/>
-<area shape="rect" id="node3" href="$namespacebeach__location__module.html#a64af06d91e0bf9bac9eb96fbd5efcdbd" title="beach_location_module\l::beach_location" alt="" coords="230,71,389,112"/>
-<area shape="rect" id="node4" href="$namespacebeach__location__module.html#a07bbe8b5d7d39b063dfb36c34cee4543" title="beach_location_module\l::halve_berm_step" alt="" coords="447,37,605,79"/>
-<area shape="rect" id="node5" href="$namespacebeach__location__module.html#a475e37ef895a20453bdb6bcf5a515a31" title="beach_location_module\l::double_berm_step" alt="" coords="447,103,605,144"/>
-</map>
