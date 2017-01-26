@@ -1,0 +1,6 @@
+<map id="vertical_grid::get_cell_dominant_layer" name="vertical_grid::get_cell_dominant_layer">
+<area shape="rect" id="node2" href="$namespacevertical__grid.html#a5ccdc45c90a72e9e81c12d62774b9df9" title="Returns the base profile value at a cell boundary. " alt="" coords="213,5,340,47"/>
+<area shape="rect" id="node4" href="$namespacevertical__grid.html#aa8a0f3f7432908ec2daf1fb5803bf12a" title="Interpolate value y value along a y&#45;z line. " alt="" coords="197,71,356,112"/>
+<area shape="rect" id="node5" href="$namespacevertical__grid.html#a4b5834ac3b074eda245ab5e2cfcdeea2" title="Returns a layer profile value at a cell boundary. " alt="" coords="213,136,340,177"/>
+<area shape="rect" id="node3" href="$namespacevertical__grid.html#acdec9eefca7e3a8080ced48c2119d79b" title="Interpolate value z value along a y&#45;z line. " alt="" coords="404,71,563,112"/>
+</map>

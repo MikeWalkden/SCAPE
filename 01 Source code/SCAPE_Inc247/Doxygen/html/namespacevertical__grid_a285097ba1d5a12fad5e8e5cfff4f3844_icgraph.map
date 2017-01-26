@@ -1,0 +1,7 @@
+<map id="vertical_grid::get_cell_dominant_layer" name="vertical_grid::get_cell_dominant_layer">
+<area shape="rect" id="node2" href="$namespacevertical__grid.html#a5041a37d436b5526b1941a48e13f48cc" title="Get the strength and sediment content values for a cell. " alt="" coords="197,35,313,76"/>
+<area shape="rect" id="node3" href="$namespaceplatform__erosion__module.html#a0d5710fa3ad3969b963d00d269cc50e8" title="Apply platform erosion to the whole beach. " alt="" coords="361,35,528,76"/>
+<area shape="rect" id="node4" href="$namespacetimestep__module.html#ab7438249ea2939c60b42804aea100c8d" title="timestep_module::update" alt="" coords="576,42,744,69"/>
+<area shape="rect" id="node5" href="$namespaceinitialise__module.html#af9414cb6875872432d6cc993285b26a4" title="FluidEarth entry point, also called from RUN_SCAPE. " alt="" coords="792,5,919,47"/>
+<area shape="rect" id="node6" href="$_r_u_n___s_c_a_p_e_8f90.html#a245c8bb9027892d128342b5a64dd42dd" title="Main program to run SCAPE freestanding. " alt="" coords="967,42,1101,69"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="setup_module::offshore_str_lookup" name="setup_module::offshore_str_lookup">
+<area shape="rect" id="node2" href="$namespacesediment__transport__module.html#a7adc8f885e9b48f52e222690ec3e30e5" title="Exchange material between the bar and the beach New, 130602, see p151(10) " alt="" coords="209,35,397,76"/>
+<area shape="rect" id="node3" href="$namespacesediment__transport__module.html#ad140147f562c20e5362aaa3ce0314ae3" title="Implements the one&#45;line beach model. " alt="" coords="445,35,636,76"/>
+<area shape="rect" id="node4" href="$namespacetimestep__module.html#ab7438249ea2939c60b42804aea100c8d" title="timestep_module::update" alt="" coords="684,42,852,69"/>
+<area shape="rect" id="node5" href="$namespaceinitialise__module.html#af9414cb6875872432d6cc993285b26a4" title="FluidEarth entry point, also called from RUN_SCAPE. " alt="" coords="900,5,1027,47"/>
+<area shape="rect" id="node6" href="$_r_u_n___s_c_a_p_e_8f90.html#a245c8bb9027892d128342b5a64dd42dd" title="Main program to run SCAPE freestanding. " alt="" coords="1075,42,1209,69"/>
+</map>

@@ -1,0 +1,42 @@
+<map id="timestep_module::update" name="timestep_module::update">
+<area shape="rect" id="node2" href="$namespacesetup__module.html#abb9ccd19b931244accdf361e30913e46" title="Finds the factor to be applied to Wave Period values at the given year. " alt="" coords="238,17,409,59"/>
+<area shape="rect" id="node3" href="$namespacesetup__module.html#a4854da51218cd1679e36333c12f56658" title="Finds the factor to be applied to Wave Height values at the given year. " alt="" coords="238,83,409,124"/>
+<area shape="rect" id="node4" href="$namespacesetup__module.html#ad493b0b33815dbb32de39f106bb0ab05" title="Finds the change to be applied to Wave Angle values at the given year. " alt="" coords="240,148,407,189"/>
+<area shape="rect" id="node5" href="$namespaceslr__module.html#aea1c63ec0fe15db032d497f647cbe1cb" title="Get sea level for given year from Sea Level file. " alt="" coords="245,214,401,241"/>
+<area shape="rect" id="node11" href="$namespacedump__module.html#a53fc708c8c191f23ba532f9d10d722f8" title="Dump q point or y point values to a text file. " alt="" coords="487,670,657,697"/>
+<area shape="rect" id="node14" href="$namespacedump__module.html#a415c5f2350f992ff64bbb90e220c7ac6" title="Dump y point values for entire cliff elevation to a text file. " alt="" coords="473,553,671,579"/>
+<area shape="rect" id="node15" href="$namespaceutilities__module.html#a6630db574a56b70d2c0e77ada0732e8b" title="Initialise a range of values in an array by interpolation. " alt="" coords="233,656,413,697"/>
+<area shape="rect" id="node16" href="$namespacewave__transformation__module.html#a8d9c0e30f4fc53e072a2b4877561622f" title="Transforms waves from the wave points to the shore. " alt="" coords="225,291,421,332"/>
+<area shape="rect" id="node18" href="$namespacexshore__dist__t__module.html#aa2779e8ddda4840e1023bc2884e7eba9" title="This routine does a numerical integration, stepping the shape function through the tidal cycle and su..." alt="" coords="497,356,647,397"/>
+<area shape="rect" id="node19" href="$namespaceutilities__module.html#adaf589834dfa09fbbf0f5b6780b74232" title="Average the values in a masked array array. " alt="" coords="240,721,407,763"/>
+<area shape="rect" id="node20" href="$namespacesediment__transport__module.html#ad140147f562c20e5362aaa3ce0314ae3" title="Implements the one&#45;line beach model. " alt="" coords="228,787,419,828"/>
+<area shape="rect" id="node24" href="$namespaceplatform__erosion__module.html#af50f8ee486255dd818a20c0e65795c5e" title="Calculate crossbeach exchange during storm waves. " alt="" coords="240,852,407,893"/>
+<area shape="rect" id="node26" href="$namespacebeach__location__module.html#a64af06d91e0bf9bac9eb96fbd5efcdbd" title="beach_location_module\l::beach_location" alt="" coords="493,917,651,959"/>
+<area shape="rect" id="node29" href="$namespaceplatform__erosion__module.html#a0d5710fa3ad3969b963d00d269cc50e8" title="Apply platform erosion to the whole beach. " alt="" coords="240,421,407,463"/>
+<area shape="rect" id="node39" href="$namespaceslump__module.html#af43a07444c3f3213f0086d3f3638329c" title="Slump the given beach section. " alt="" coords="249,969,398,995"/>
+<area shape="rect" id="node40" href="$namespacesetup__module.html#ac6cbd85f50d902e2a08e85c85e488e7a" title="Sets nextOutputYear to be the next year at which output is required. " alt="" coords="221,1019,425,1046"/>
+<area shape="rect" id="node41" href="$namespacetimestep__module.html#a7dbbb38dd0b848da278309674064e3ab" title="Output cliffy or beachy values for a range of section indices. " alt="" coords="241,539,406,580"/>
+<area shape="rect" id="node6" href="$namespaceutilities__module.html#ad2f4002913de9a066d2e541d9b90df87" title="Returns a unit number that is not in use. " alt="" coords="503,5,641,47"/>
+<area shape="rect" id="node7" href="$namespaceutilities__module.html#a88861ad97c41598219fab3b77fe685e5" title="Opens a text file for input and return a success_code value. " alt="" coords="500,123,644,164"/>
+<area shape="rect" id="node9" href="$namespaceexceptions.html#abeff94ba7cb1b2eea71e2ab64b2ba5af" title="Test iostat to return success code. " alt="" coords="741,93,883,135"/>
+<area shape="rect" id="node10" href="$namespaceexceptions.html#adb88d6f61ab18ab53a1d0c7c7022af3c" title="Log a failure message. " alt="" coords="720,330,904,357"/>
+<area shape="rect" id="node8" href="$namespaceutilities__module.html#a9a22dc4f187ed32c895a2404550f749f" title="Support for FluidEarth (OpenMI) logging. " alt="" coords="739,239,885,266"/>
+<area shape="rect" id="node12" href="$namespacedump__module.html#a6800e2939aa73f544682978d188af1f8" title="dump_module::open_file" alt="" coords="731,586,893,613"/>
+<area shape="rect" id="node13" href="$namespacedump__module.html#a94e10a86e2e4a498dacd2930b7ae7519" title="dump_module::dump_values" alt="" coords="719,654,905,681"/>
+<area shape="rect" id="node17" href="$namespaceutilities__module.html#a8ff3f4d80731802424c10305d9feb785" title="Average the values in an array. " alt="" coords="490,291,654,332"/>
+<area shape="rect" id="node21" href="$namespacesediment__transport__module.html#a7adc8f885e9b48f52e222690ec3e30e5" title="Exchange material between the bar and the beach New, 130602, see p151(10) " alt="" coords="478,721,666,763"/>
+<area shape="rect" id="node23" href="$namespacesetup__module.html#a4ef499eb3b2e377e92bc9aa4ee6a7428" title="Returns the groyne effect value for a given beach width. Within the range zero (no effect) and 1 (gro..." alt="" coords="497,787,647,828"/>
+<area shape="rect" id="node22" href="$namespacesetup__module.html#aecb4f96b2e02c8a8d3bcc45e06ba1dc1" title="Returns the offshore sediment transport rate for a given wave height and period. " alt="" coords="734,721,890,763"/>
+<area shape="rect" id="node25" href="$namespacesetup__module.html#adbf70d058a7b46fd6fd0341aca2aeb86" title="Returns the croosbeach sediment transport rate for a given wave height and period. " alt="" coords="483,852,661,893"/>
+<area shape="rect" id="node27" href="$namespacebeach__location__module.html#a07bbe8b5d7d39b063dfb36c34cee4543" title="beach_location_module\l::halve_berm_step" alt="" coords="733,884,891,925"/>
+<area shape="rect" id="node28" href="$namespacebeach__location__module.html#a475e37ef895a20453bdb6bcf5a515a31" title="beach_location_module\l::double_berm_step" alt="" coords="733,949,891,991"/>
+<area shape="rect" id="node30" href="$namespaceplatform__erosion__module.html#af3a97d87ece849b505883e4da5b2609b" title="Calculate the beach depths over the platform, so its level of protection can be established. " alt="" coords="489,487,655,528"/>
+<area shape="rect" id="node32" href="$namespacevertical__grid.html#a5041a37d436b5526b1941a48e13f48cc" title="Get the strength and sediment content values for a cell. " alt="" coords="514,421,630,463"/>
+<area shape="rect" id="node38" href="$namespacesetup__module.html#a22096b53e181d4682f3b952ebe9feae0" title="Takes a vertical element index in the range 1 : nce and returns element height relative to OD..." alt="" coords="497,604,647,645"/>
+<area shape="rect" id="node31" href="$namespaceplatform__erosion__module.html#a0c9987708db68b4c3d2b04013ac991ca" title="Support function for subroutine BEACH_DEPTH. " alt="" coords="729,487,895,528"/>
+<area shape="rect" id="node33" href="$namespacevertical__grid.html#a285097ba1d5a12fad5e8e5cfff4f3844" title="Returns an int indicating whether the HA grid cell of interest is empty, or which of the base geology..." alt="" coords="740,421,884,463"/>
+<area shape="rect" id="node34" href="$namespacevertical__grid.html#a5ccdc45c90a72e9e81c12d62774b9df9" title="Returns the base profile value at a cell boundary. " alt="" coords="969,421,1096,463"/>
+<area shape="rect" id="node36" href="$namespacevertical__grid.html#aa8a0f3f7432908ec2daf1fb5803bf12a" title="Interpolate value y value along a y&#45;z line. " alt="" coords="953,487,1112,528"/>
+<area shape="rect" id="node37" href="$namespacevertical__grid.html#a4b5834ac3b074eda245ab5e2cfcdeea2" title="Returns a layer profile value at a cell boundary. " alt="" coords="969,356,1096,397"/>
+<area shape="rect" id="node35" href="$namespacevertical__grid.html#acdec9eefca7e3a8080ced48c2119d79b" title="Interpolate value z value along a y&#45;z line. " alt="" coords="1160,389,1319,431"/>
+</map>

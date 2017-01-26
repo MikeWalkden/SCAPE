@@ -1,0 +1,6 @@
+<map id="utilities_module::average_value" name="utilities_module::average_value">
+<area shape="rect" id="node2" href="$namespacewave__transformation__module.html#a8d9c0e30f4fc53e072a2b4877561622f" title="Transforms waves from the wave points to the shore. " alt="" coords="217,35,413,76"/>
+<area shape="rect" id="node3" href="$namespacetimestep__module.html#ab7438249ea2939c60b42804aea100c8d" title="timestep_module::update" alt="" coords="461,42,629,69"/>
+<area shape="rect" id="node4" href="$namespaceinitialise__module.html#af9414cb6875872432d6cc993285b26a4" title="FluidEarth entry point, also called from RUN_SCAPE. " alt="" coords="677,5,804,47"/>
+<area shape="rect" id="node5" href="$_r_u_n___s_c_a_p_e_8f90.html#a245c8bb9027892d128342b5a64dd42dd" title="Main program to run SCAPE freestanding. " alt="" coords="852,42,987,69"/>
+</map>

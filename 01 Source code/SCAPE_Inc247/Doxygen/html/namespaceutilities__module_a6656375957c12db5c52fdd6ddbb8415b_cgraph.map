@@ -1,0 +1,6 @@
+<map id="utilities_module::do_open_binary_input_file" name="utilities_module::do_open_binary_input_file">
+<area shape="rect" id="node2" href="$namespaceutilities__module.html#a9a22dc4f187ed32c895a2404550f749f" title="Support for FluidEarth (OpenMI) logging. " alt="" coords="229,5,376,32"/>
+<area shape="rect" id="node3" href="$namespaceexceptions.html#adb88d6f61ab18ab53a1d0c7c7022af3c" title="Log a failure message. " alt="" coords="211,56,395,83"/>
+<area shape="rect" id="node4" href="$namespaceutilities__module.html#aa05c2da48053fc52e1a78c2aef1297e8" title="Opens a binary file for input, allowing for different FORTRAN compilers. " alt="" coords="229,107,377,149"/>
+<area shape="rect" id="node5" href="$namespaceexceptions.html#abeff94ba7cb1b2eea71e2ab64b2ba5af" title="Test iostat to return success code. " alt="" coords="231,173,374,214"/>
+</map>

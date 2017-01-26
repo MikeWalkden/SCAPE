@@ -1,0 +1,6 @@
+<map id="xshore_dist_t_module::xshore_dist_t" name="xshore_dist_t_module::xshore_dist_t">
+<area shape="rect" id="node2" href="$namespaceplatform__erosion__module.html#a0d5710fa3ad3969b963d00d269cc50e8" title="Apply platform erosion to the whole beach. " alt="" coords="203,5,369,47"/>
+<area shape="rect" id="node3" href="$namespacetimestep__module.html#ab7438249ea2939c60b42804aea100c8d" title="timestep_module::update" alt="" coords="417,42,585,69"/>
+<area shape="rect" id="node4" href="$namespaceinitialise__module.html#af9414cb6875872432d6cc993285b26a4" title="FluidEarth entry point, also called from RUN_SCAPE. " alt="" coords="633,5,760,47"/>
+<area shape="rect" id="node5" href="$_r_u_n___s_c_a_p_e_8f90.html#a245c8bb9027892d128342b5a64dd42dd" title="Main program to run SCAPE freestanding. " alt="" coords="808,42,943,69"/>
+</map>
