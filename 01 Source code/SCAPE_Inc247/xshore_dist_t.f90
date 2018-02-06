@@ -60,7 +60,7 @@ contains
 !>    time that the tide spends at the different levels, more 
 !>    at the extremes thena in the middle.
     subroutine xshore_dist_t(half_tide, sf, nce, dbreak,    &
-        dsf, setup, heightsurge, np_sf, lowlim, uplim,    &
+        dsf, setup, setdown, heightsurge, np_sf, lowlim, uplim,    &
         cliffheights, msl_m, this_dist, bottom, top, sfid, success_code)
     
     use xshore_dist_t_data ! (JT241007)
@@ -78,6 +78,7 @@ contains
     real(kind=double), intent(in) :: dbreak !< Depth of breaking
     real(kind=double), intent(in) :: dsf !< Dx of the shape function (see elsewhere)
     real(kind=double), intent(in) :: setup
+    real(kind=double), intent(in) :: setdown
     real(kind=double), intent(in) :: heightsurge !< Not used, left at zero
     integer, intent(in) :: np_sf !<  Number of points in the shape function
     integer, intent(in) :: lowlim !< The lower limit of the model (element 2)
@@ -221,7 +222,7 @@ contains
     this_dist=0.0d0
 
     dzdist = dbreak * dsf
-    distlow = msl_m + heightsurge + setup - ((half_tide + np_sf)*dzdist)
+    distlow = msl_m + heightsurge + setdown - ((half_tide + np_sf)*dzdist)
     disthigh = msl_m + heightsurge + setup + (half_tide * dzdist)
     top = nint(disthigh / dz)
     bottom = nint(distlow / dz)

@@ -95,7 +95,7 @@ subroutine update(success_code)
     logical :: mask_h(nYsections) ! mask sections with inshore wave height >= minHs
 
     success_code = 0
-
+	    !  write(6, fmt='(A,I7)') ' nTide ', ntide ! To screen Debug code
         if (ntide > 1 .and. mod(ntide - 1, tidesPerYear) == 0) then ! One year has passed, increment the year
             year = year + 1
                 
@@ -238,6 +238,10 @@ subroutine update(success_code)
                 tidal_amp_value, tidal_amp_value * tidalAmpScaleLeft)
         end if
 
+        if (nYsections == 1) then
+          tidal_amp(1) = tidal_amp_value
+        end if
+
         anglewp = anglewp * radcon    ! Convert to radians
         
         ! Check to see whether to proceed into the main loop
@@ -319,36 +323,45 @@ subroutine update(success_code)
                 if (tidalRangeVariation) then
                     do section = 1, nYsections
                         if (mask_h(section)) then
+
+                          
+
+                          
                             call xshore_dist_t(nint(half_tide(section)), sf_drift,    &
                               nce, dbreak(section), dsf_drift,        &
-                              setup(section), heightsurge, np_sf_drift,        &
+                              setup(section),setdown(section), heightsurge, np_sf_drift,        &
                               beachCrestLevelE - beachHeightE, beachCrestLevelE,        &
                               cliffheights, msl_m,                &
                               sect_drift(:, section), bot_drift(section), top_drift(section), 1, success_code)
                             if (success_code < 0) return
-                        else
+                        else ! (mask_h(section))
                             sect_drift(:, section) = 0.0D0
                             bot_drift(section) = beachCrestLevelE - beachHeightE
                             top_drift(section) = beachCrestLevelE - 1
-                        end if
-                    end do
-                else
+                        end if ! (mask_h(section))
+                    end do ! section = 1, nYsections
+                else ! (tidalRangeVariation)
                     mean_dbreak = MASKED_AVERAGE_VALUE(dbreak, mask_h) 
                     mean_half_tide = MASKED_AVERAGE_VALUE(half_tide, mask_h)
                     mean_setup = MASKED_AVERAGE_VALUE(setup, mask_h) 
                     
                     if (COUNT(mask_h) > 0) then
+                    
+            
+                      
                         call xshore_dist_t(nint(mean_half_tide), sf_drift,    &
                         nce, mean_dbreak, dsf_drift,        &
-                        mean_setup, heightsurge, np_sf_drift,        &
+                        mean_setup, mean_setup, heightsurge, np_sf_drift,        &
                         beachCrestLevelE - beachHeightE, beachCrestLevelE,        &
                         cliffheights, msl_m,                &
                         this_tide_drift, bottom, top, 1, success_code)
                         if (success_code < 0) return
-                    else
+                    else ! (COUNT(mask_h) > 0) 
+                          
+                             
                         bottom = beachCrestLevelE - beachHeightE
                         top = beachCrestLevelE - 1
-                    end if
+                    end if ! (COUNT(mask_h) > 0) 
     
                     bot_drift = bottom    ! Sets the lower vertical limit of the drift distribution
                     top_drift = top ! Sets the upper vertical limit of the drift distribution
@@ -360,8 +373,8 @@ subroutine update(success_code)
                         else
                             sect_drift(:, section) = 0.0D0
                         end if
-                    end do
-                end if 
+                    end do ! section = 1, nYsections
+                end if ! (tidalRangeVariation)
 
     !*******************************************
     !
@@ -399,6 +412,8 @@ subroutine update(success_code)
             endif
         enddo
 
+
+
         call PLATFORM_EROSION(nYsections, nce, &
             upbeachy, &
             lowbeachy, &
@@ -407,7 +422,7 @@ subroutine update(success_code)
             seawall_effect,  cliffheights, &
             beach_addition, fines_addition, h, &
             dbreak, half_tide, sand_fraction, resistance, tvolume, &
-            seawall_os, seawall_active, setup, &
+            seawall_os, seawall_active, setup, setdown, &
             sf_erode, np_sf_erode, period, tstep_secs, &
             block_size, dsf_erode, heightsurge, &
             msl_m, bottom, top, success_code)

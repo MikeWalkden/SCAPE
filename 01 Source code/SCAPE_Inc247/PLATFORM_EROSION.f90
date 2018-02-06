@@ -81,7 +81,7 @@ contains
         seawall_effect, cliffheights, &
         beach_addition, fines_addition, h, &
         dbreak, half_tide, sand_fraction, resistance, tvolume, &
-        seawall_os, seawall_active, setup, &
+        seawall_os, seawall_active, setup, setdown, &
         sf_erode, np_sf_erode, period, tstep_secs, &
         block_size, dsf_erode, heightsurge, &
         msl_m, bottom, top, success_code)
@@ -123,6 +123,7 @@ contains
 !    integer, intent(in), dimension(nYsections) :: top_erode
 !    integer, intent(in), dimension(nYsections) :: bot_erode
     real(kind=double), intent(in), dimension(nYsections) :: setup
+    real(kind=double), intent(in), dimension(nYsections) :: setdown
     real(kind=double), intent(in), dimension(50,2) :: sf_erode !< Shape function - vertical distribution of erosion with breaking waves
         !< ALL SHAPE FUNCTIONS MUST HAVE THE SAME dX
     integer, intent(in) :: np_sf_erode !< Number of points in erosion shape function
@@ -175,9 +176,10 @@ contains
 
     sections: do section = firstActiveSection, lastActiveSection
     
-    if (h(section) < minHs) then
-        cycle ! skip section with small inshore waves
-    end if
+		 
+  !  if (h(section) < minHs) then
+   !     cycle ! skip section with small inshore waves
+   ! end if
     
     this_erode = 0.0D0
     m = 0.0D0
@@ -198,9 +200,10 @@ contains
     !    Calculate the cross-shore distribution of erosion
     !    for this tide
     !*******************************************************
-
+		
+        
       call xshore_dist_t(nint(half_tide(section)),sf_erode,nce,    &
-        dbreak(section),dsf_erode,setup(section),heightsurge, np_sf_erode,    &
+        dbreak(section),dsf_erode,setup(section),setdown(section),heightsurge, np_sf_erode,    &
         2,nce,cliffheights,msl_m,        &
         this_erode,bottom,top,2, success_code)
       if (success_code < 0) return

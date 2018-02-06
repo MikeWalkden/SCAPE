@@ -171,9 +171,9 @@ contains
       ! find the depth of the offshore contour at high tide
       depthosc = depthOSCMsl + AVERAGE_VALUE(tidal_amp) + heightsurge
       
-      if(nQpoints == 1)then
-        i=1
-        angbeachbp(i) = baselineAngle_radians
+      if(nYsections == 1)then
+        angbeachbp(1) = baselineAngle_radians
+        angbeachbp(2) = baselineAngle_radians
       else
         do section = 1, nYsections
           ! Estimate the offset of the breaker point

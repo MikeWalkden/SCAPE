@@ -355,7 +355,9 @@ contains
       tstep_secs = 44890    ! time step of one tide
 
 !*** Some constants
-    breakrat = 0.78D0        ! Ratio of breaker height and water depth 
+  
+
+	breakrat = 0.6D0        ! Ratio of breaker height and water depth 
     rhow = 1035.0D0            ! Density of water
     g = 9.81D0            
 
@@ -1134,7 +1136,8 @@ contains
 
 !*** Define the initial Talus offsets 
 ! A little way behind the cliff toe
-    talus_offsets = clifftoe_pos - 2
+! Debug code
+    talus_offsets = clifftoe_pos - 100
     call dump_real("run_scape1232", "talus_offsets", .false., talus_offsets)
 
 !*** Define the initial Talus vector
