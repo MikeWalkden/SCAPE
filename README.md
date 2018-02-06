@@ -1,11 +1,13 @@
-# SCAPE
+e# SCAPE
 Coastal modelling tool Soft Cliff And Platform Erosion (SCAPE)
 
-This version of SCAPE (SCAPE+) has been developed as part of the Integrating COAstal Sediment sySTems (iCOASST) project, funded by the UK Natural Environment Research Council (NERC project NE/J005541/1). Further information on this modelling tool and iCOASST can be found at:
-
+The current version of SCAPE (SCAPE+, Version 1.22) has benefited from development as part of the Integrating COAstal Sediment sySTems (iCOASST) project, funded by the UK Natural Environment Research Council (NERC project NE/J005541/1). Further information on this modelling tool and iCOASST can be found at:
 http://www.icoasst.net 
-
 http://www.channelcoast.org/iCOASST 
+
+Changes have been made to the source code since the iCOASST project to deal with bugs that have come to light and to make minor changes to the representation of some processes.  
+
+
 
 SCAPE is described more fully in: 
 Walkden, M.J.A. and Hall, J.W., 2005. A predictive mesoscale model of the erosion and profile development of soft rock shores. Coastal Engineering, 52(6), pp.535-563.
