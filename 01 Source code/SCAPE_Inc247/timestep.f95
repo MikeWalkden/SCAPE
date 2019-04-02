@@ -316,7 +316,7 @@ subroutine update(success_code)
             end if
         end do
         
-        if(nQpoints > 1)then    ! More than one section
+        if(nYsections > 1)then    ! More than one section
                 ! call the subroutine to calculate the TIDAL cross shore distribution of 
                 ! longshore drift.
 
@@ -344,14 +344,12 @@ subroutine update(success_code)
                     mean_dbreak = MASKED_AVERAGE_VALUE(dbreak, mask_h) 
                     mean_half_tide = MASKED_AVERAGE_VALUE(half_tide, mask_h)
                     mean_setup = MASKED_AVERAGE_VALUE(setup, mask_h) 
-                    
+                    mean_setdown = MASKED_AVERAGE_VALUE(setdown, mask_h)
+                     
                     if (COUNT(mask_h) > 0) then
-                    
-            
-                      
                         call xshore_dist_t(nint(mean_half_tide), sf_drift,    &
                         nce, mean_dbreak, dsf_drift,        &
-                        mean_setup, mean_setup, heightsurge, np_sf_drift,        &
+                        mean_setup, mean_setdown, heightsurge, np_sf_drift,        &
                         beachCrestLevelE - beachHeightE, beachCrestLevelE,        &
                         cliffheights, msl_m,                &
                         this_tide_drift, bottom, top, 1, success_code)

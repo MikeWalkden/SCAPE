@@ -72,7 +72,7 @@
     real(kind=double) :: tidecounter, mid_hourly_level
     real(kind=double), allocatable, dimension(:) :: tidal_amp
     real(kind=double) :: period
-    real(kind=double) :: mean_dbreak,mean_half_tide,mean_setup
+    real(kind=double) :: mean_dbreak,mean_half_tide,mean_setup,mean_setdown
     real(kind=double) :: totalbvolume
     real(kind=double) :: heightsurge !< Not used, left at zero
     real(kind=double) :: fines_volume

@@ -156,7 +156,7 @@ module local_data
     !< for a SCAPE engine running in a composition.
 
     integer :: nextOutputYear !< next year at which output is required
-    character(6) :: SCAPE_VERSION = '1.22'
+    character(6) :: SCAPE_VERSION = '1.23'
     
     real(kind=double) :: periodFactor = 1.0D0 ! Wave period factor for current year
     logical :: havePeriodFactor = .false.
