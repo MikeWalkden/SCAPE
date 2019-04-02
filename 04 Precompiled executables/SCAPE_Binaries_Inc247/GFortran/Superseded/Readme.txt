@@ -9,7 +9,12 @@ required to describe a SCAPE model component to FluidEarth
 
 ENGINE.dll - the SCAPE engine
 
-RUN_SCAPE.exe - the free-standing SCAPE application 
+RUN_SCAPE.exe - the free-standing SCAPE application
+ 
+*** 
+Note that this has been deleted (2nd April 2019) - the source code has been updated and I don't have access to a GFortran compiler
+*** 
+
 
 This is compiled with Visual Studio Express 2013:
 ================================================
