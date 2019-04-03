@@ -175,7 +175,10 @@ contains
      call dump_cliff_real("platfor_erosion_235", "lowbeachy", lowbeachy)
 
     sections: do section = firstActiveSection, lastActiveSection
-    
+    		 
+    if (h(section) < minHs) then
+        cycle ! skip section with small inshore waves
+    end if
    
     this_erode = 0.0D0
     m = 0.0D0
