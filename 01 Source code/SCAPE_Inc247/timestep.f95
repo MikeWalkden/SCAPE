@@ -572,11 +572,16 @@ subroutine update(success_code)
     ! Code gets here every hour
 !end do     ! End of tide hour loop
 
+
+
 	! Output potential and actual sediment out flux at boundaries
-    write(saveSedFluxLeftUnit,"(F14.2)") left_sediment_flux
-    write(savePotSedFluxLeftUnit,"(F14.2)") pot_left_sediment_flux
-    write(saveSedFluxRightUnit,"(F14.2)") right_sediment_flux
-    write(savePotSedFluxRightUnit,"(F14.2)") pot_right_sediment_flux
+    if (year < startYear + beachZeroDelay) then
+         write(saveSedFluxLeftUnit,"(F14.2)") left_sediment_flux
+         write(savePotSedFluxLeftUnit,"(F14.2)") pot_left_sediment_flux
+         write(saveSedFluxRightUnit,"(F14.2)") right_sediment_flux
+         write(savePotSedFluxRightUnit,"(F14.2)") pot_right_sediment_flux
+     end if
+    
 
 !*****************************************************************
 !
