@@ -1,6 +1,6 @@
 "General"
 {
-"ProjectIdGuid" = "{7AC4B08A-E175-4157-A59D-5CE364AD0366}"
+"ProjectIdGuid" = ""
 "CurrentConfig" = "Release|Win32"
 "SupportsFolders" = "Yes"
 }
@@ -30,7 +30,7 @@
     "Timing" = "No"
     "Underflow" = "No"
     "Optimise" = "No"
-    "P6" = "Yes"
+    "P6" = "No"
     "UnrollLimit" = ""
     "DefintKind" = ""
     "DeflogKind" = ""
@@ -72,14 +72,14 @@
     "Fpp" = "Yes"
     "Statistics" = "No"
     "CompilerExtras" = ""
-    "LaunchArguments" = "NOSEED"
+    "LaunchArguments" = ""
     "OutputFile" = "Release\\Win32\\SCAPE.exe"
     "FileType" = "EXE"
     "Stack_NET" = ""
     "AltCompilerOptions" = ""
     "SrcCompilerOptions" = ""
-    "DebugTarget" = "Release\\Win32\\SCAPE.exe"
-    "Win32DebuggerType" = "VSIntegrated"
+    "DebugTarget" = ""
+    "Win32DebuggerType" = ""
     "PreventDependencyCheck" = "No"
     "PreBuildStep" = ""
     "PreBuildStepExclude" = "No"
@@ -91,7 +91,7 @@
     "Release|.NET"
     {
     "Windows" = "No"
-    "SealedClass" = "Yes"
+    "SealedClass" = "No"
     "ContainingClass" = ""
     "Version" = ""
     "Stack_NET" = ""
@@ -138,7 +138,7 @@
     "Ignore" = ""
     "NoComment" = "No"
     "CompilerSilent" = "No"
-    "StandardErrorReports" = "Yes"
+    "StandardErrorReports" = "No"
     "WarnFatal" = "No"
     "Dump" = "No"
     "Explist" = "No"
@@ -173,7 +173,7 @@
     "Check" = "No"
     "Undef" = "No"
     "CheckMate" = "No"
-    "FullDebug" = "Yes"
+    "FullDebug" = "No"
     "BoundsCheck" = "No"
     "DebugSource" = "No"
     "Profile" = "No"
@@ -183,7 +183,7 @@
     "Timing" = "No"
     "Underflow" = "No"
     "Optimise" = "No"
-    "P6" = "Yes"
+    "P6" = "No"
     "UnrollLimit" = ""
     "DefintKind" = ""
     "DeflogKind" = ""
@@ -225,14 +225,14 @@
     "Fpp" = "Yes"
     "Statistics" = "No"
     "CompilerExtras" = ""
-    "LaunchArguments" = "NOSEED"
+    "LaunchArguments" = ""
     "OutputFile" = "Debug\\Win32\\SCAPE.exe"
     "FileType" = "EXE"
     "Stack_NET" = ""
-    "AltCompilerOptions" = ""
+    "AltCompilerOptions" = "/DEBUG"
     "SrcCompilerOptions" = ""
-    "DebugTarget" = "Debug\\Win32\\SCAPE.exe"
-    "Win32DebuggerType" = "VSIntegrated"
+    "DebugTarget" = ""
+    "Win32DebuggerType" = ""
     "PreventDependencyCheck" = "No"
     "PreBuildStep" = ""
     "PreBuildStepExclude" = "No"
@@ -244,7 +244,7 @@
     "Debug|.NET"
     {
     "Windows" = "No"
-    "SealedClass" = "Yes"
+    "SealedClass" = "No"
     "ContainingClass" = ""
     "Version" = ""
     "Stack_NET" = ""
@@ -258,7 +258,7 @@
     "Check" = "No"
     "Undef" = "No"
     "CheckMate" = "No"
-    "FullDebug" = "Yes"
+    "FullDebug" = "No"
     "BoundsCheck" = "No"
     "DebugSource" = "No"
     "Overflow" = "No"
@@ -291,7 +291,7 @@
     "Ignore" = ""
     "NoComment" = "No"
     "CompilerSilent" = "No"
-    "StandardErrorReports" = "Yes"
+    "StandardErrorReports" = "No"
     "WarnFatal" = "No"
     "Dump" = "No"
     "Explist" = "No"
@@ -322,12 +322,12 @@
     "Extras" = ""
     "VirtualCommon" = ""
     "NoLink" = "No"
-    "DebugInfo" = "Yes"
-    "Check" = "Yes"
-    "Undef" = "Yes"
+    "DebugInfo" = "No"
+    "Check" = "No"
+    "Undef" = "No"
     "CheckMate" = "Yes"
-    "FullDebug" = "Yes"
-    "BoundsCheck" = "Yes"
+    "FullDebug" = "No"
+    "BoundsCheck" = "No"
     "DebugSource" = "No"
     "Profile" = "No"
     "QuickBounds" = "No"
@@ -336,7 +336,7 @@
     "Timing" = "No"
     "Underflow" = "No"
     "Optimise" = "No"
-    "P6" = "Yes"
+    "P6" = "No"
     "UnrollLimit" = ""
     "DefintKind" = ""
     "DeflogKind" = ""
@@ -378,14 +378,14 @@
     "Fpp" = "Yes"
     "Statistics" = "No"
     "CompilerExtras" = ""
-    "LaunchArguments" = "NOSEED"
+    "LaunchArguments" = ""
     "OutputFile" = "CheckMate\\Win32\\SCAPE.exe"
     "FileType" = "EXE"
     "Stack_NET" = ""
-    "AltCompilerOptions" = ""
+    "AltCompilerOptions" = "/FULL_UNDEF"
     "SrcCompilerOptions" = ""
-    "DebugTarget" = "CheckMate\\Win32\\SCAPE.exe"
-    "Win32DebuggerType" = "VSIntegrated"
+    "DebugTarget" = ""
+    "Win32DebuggerType" = ""
     "PreventDependencyCheck" = "No"
     "PreBuildStep" = ""
     "PreBuildStepExclude" = "No"
@@ -397,7 +397,7 @@
     "CheckMate|.NET"
     {
     "Windows" = "No"
-    "SealedClass" = "Yes"
+    "SealedClass" = "No"
     "ContainingClass" = ""
     "Version" = ""
     "Stack_NET" = ""
@@ -411,7 +411,7 @@
     "Check" = "No"
     "Undef" = "No"
     "CheckMate" = "Yes"
-    "FullDebug" = "Yes"
+    "FullDebug" = "No"
     "BoundsCheck" = "No"
     "DebugSource" = "No"
     "Overflow" = "No"
@@ -444,7 +444,7 @@
     "Ignore" = ""
     "NoComment" = "No"
     "CompilerSilent" = "No"
-    "StandardErrorReports" = "Yes"
+    "StandardErrorReports" = "No"
     "WarnFatal" = "No"
     "Dump" = "No"
     "Explist" = "No"
@@ -480,39 +480,31 @@
     "Source Files"
     {
     "Folder" = "T"
+        ".\\dump.f95"
+        {
+        "ProjRelPath" = "T"
+        "CustomCompilerOptions" = "0"
+        "CustomSwitches" = ""
+        "ExcludeFromBuild" = "F"
+        "FileGUID" = ""
+        }
+        ".\\exceptions.f95"
+        {
+        "ProjRelPath" = "T"
+        "CustomCompilerOptions" = "0"
+        "CustomSwitches" = ""
+        "ExcludeFromBuild" = "F"
+        "FileGUID" = ""
+        }
         ".\\fromInt.f90"
         {
         "ProjRelPath" = "T"
         "CustomCompilerOptions" = "0"
         "CustomSwitches" = ""
         "ExcludeFromBuild" = "F"
-        "FileGUID" = "{91BB674C-FBA6-4877-A0FB-59A10D55EF55}"
+        "FileGUID" = ""
         }
         ".\\global_data.f90"
-        {
-        "ProjRelPath" = "T"
-        "CustomCompilerOptions" = "0"
-        "CustomSwitches" = ""
-        "ExcludeFromBuild" = "F"
-        "FileGUID" = "{B1A49577-55BD-49D6-8A44-C414500663FA}"
-        }
-        ".\\Normal.f90"
-        {
-        "ProjRelPath" = "T"
-        "CustomCompilerOptions" = "0"
-        "CustomSwitches" = ""
-        "ExcludeFromBuild" = "F"
-        "FileGUID" = "{408D4BE1-1C45-4846-941C-26068FEBBAB3}"
-        }
-        ".\\xshore_dist_t_data.f90"
-        {
-        "ProjRelPath" = "T"
-        "CustomCompilerOptions" = "0"
-        "CustomSwitches" = ""
-        "ExcludeFromBuild" = "F"
-        "FileGUID" = "{EE51ADC7-AD84-48C9-967F-F3A0BCA08961}"
-        }
-        ".\\dump.f95"
         {
         "ProjRelPath" = "T"
         "CustomCompilerOptions" = "0"
@@ -528,7 +520,7 @@
         "ExcludeFromBuild" = "F"
         "FileGUID" = ""
         }
-        ".\\exceptions.f95"
+        ".\\Normal.f90"
         {
         "ProjRelPath" = "T"
         "CustomCompilerOptions" = "0"
@@ -550,9 +542,33 @@
         "CustomCompilerOptions" = "0"
         "CustomSwitches" = ""
         "ExcludeFromBuild" = "F"
-        "FileGUID" = "{C308E7DB-04D4-47BF-8935-3B6E179EDAAE}"
+        "FileGUID" = ""
         }
         ".\\setup.f95"
+        {
+        "ProjRelPath" = "T"
+        "CustomCompilerOptions" = "0"
+        "CustomSwitches" = ""
+        "ExcludeFromBuild" = "F"
+        "FileGUID" = ""
+        }
+        ".\\BEACH_LOCATION.f90"
+        {
+        "ProjRelPath" = "T"
+        "CustomCompilerOptions" = "0"
+        "CustomSwitches" = ""
+        "ExcludeFromBuild" = "F"
+        "FileGUID" = ""
+        }
+        ".\\RegFalls3.f90"
+        {
+        "ProjRelPath" = "T"
+        "CustomCompilerOptions" = "0"
+        "CustomSwitches" = ""
+        "ExcludeFromBuild" = "F"
+        "FileGUID" = ""
+        }
+        ".\\SeaLevelRise.f95"
         {
         "ProjRelPath" = "T"
         "CustomCompilerOptions" = "0"
@@ -566,49 +582,9 @@
         "CustomCompilerOptions" = "0"
         "CustomSwitches" = ""
         "ExcludeFromBuild" = "F"
-        "FileGUID" = "{9DF30451-FCC4-4B28-AA59-6A75DE34FC42}"
-        }
-        ".\\WAVE_TRANSFORMATION.f90"
-        {
-        "ProjRelPath" = "T"
-        "CustomCompilerOptions" = "0"
-        "CustomSwitches" = "/PROFILE"
-        "ExcludeFromBuild" = "F"
-        "FileGUID" = "{BA8F8B87-EF7C-4039-A382-867544D6881B}"
-        }
-        ".\\RegFalls3.f90"
-        {
-        "ProjRelPath" = "T"
-        "CustomCompilerOptions" = "0"
-        "CustomSwitches" = ""
-        "ExcludeFromBuild" = "F"
-        "FileGUID" = "{E5994087-6A83-4BAA-9F33-D43ACC389529}"
-        }
-        ".\\BEACH_LOCATION.f90"
-        {
-        "ProjRelPath" = "T"
-        "CustomCompilerOptions" = "0"
-        "CustomSwitches" = ""
-        "ExcludeFromBuild" = "F"
-        "FileGUID" = "{BEB2C54B-B608-46BD-89B2-2A7EF0867F91}"
+        "FileGUID" = ""
         }
         ".\\slump.f90"
-        {
-        "ProjRelPath" = "T"
-        "CustomCompilerOptions" = "0"
-        "CustomSwitches" = ""
-        "ExcludeFromBuild" = "F"
-        "FileGUID" = "{43B5D8B6-2F3C-4A43-890B-5992868D9E39}"
-        }
-        ".\\xshore_dist_t.f90"
-        {
-        "ProjRelPath" = "T"
-        "CustomCompilerOptions" = "0"
-        "CustomSwitches" = ""
-        "ExcludeFromBuild" = "F"
-        "FileGUID" = "{46415869-E22D-4AFF-9A72-7FB7096CECB0}"
-        }
-        ".\\SeaLevelRise.f95"
         {
         "ProjRelPath" = "T"
         "CustomCompilerOptions" = "0"
@@ -624,13 +600,45 @@
         "ExcludeFromBuild" = "F"
         "FileGUID" = ""
         }
+        ".\\WAVE_TRANSFORMATION.f90"
+        {
+        "ProjRelPath" = "T"
+        "CustomCompilerOptions" = "0"
+        "CustomSwitches" = ""
+        "ExcludeFromBuild" = "F"
+        "FileGUID" = ""
+        }
+        ".\\xshore_dist_t_data.f90"
+        {
+        "ProjRelPath" = "T"
+        "CustomCompilerOptions" = "0"
+        "CustomSwitches" = ""
+        "ExcludeFromBuild" = "F"
+        "FileGUID" = ""
+        }
+        ".\\finish.f95"
+        {
+        "ProjRelPath" = "T"
+        "CustomCompilerOptions" = "0"
+        "CustomSwitches" = ""
+        "ExcludeFromBuild" = "F"
+        "FileGUID" = ""
+        }
+        ".\\xshore_dist_t.f90"
+        {
+        "ProjRelPath" = "T"
+        "CustomCompilerOptions" = "0"
+        "CustomSwitches" = ""
+        "ExcludeFromBuild" = "F"
+        "FileGUID" = ""
+        }
         ".\\PLATFORM_EROSION.f90"
         {
         "ProjRelPath" = "T"
         "CustomCompilerOptions" = "0"
         "CustomSwitches" = ""
         "ExcludeFromBuild" = "F"
-        "FileGUID" = "{521ACF19-3A3F-41F6-BDA7-2B068308245F}"
+        "FileGUID" = ""
         }
         ".\\timestep.f95"
         {
@@ -648,7 +656,7 @@
         "ExcludeFromBuild" = "F"
         "FileGUID" = ""
         }
-        ".\\finish.f95"
+        ".\\RUN_SCAPE.f90"
         {
         "ProjRelPath" = "T"
         "CustomCompilerOptions" = "0"
@@ -656,52 +664,8 @@
         "ExcludeFromBuild" = "F"
         "FileGUID" = ""
         }
-        ".\\RUN_SCAPE.f90"
-        {
-        "ProjRelPath" = "T"
-        "CustomCompilerOptions" = "0"
-        "CustomSwitches" = "/PROFILE"
-        "ExcludeFromBuild" = "F"
-        "FileGUID" = "{474516B2-8A85-458A-BCE5-E8D23228601A}"
-        }
     }
 }
 "References"
 {
-    "C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\System.dll"
-    {
-    "CopyLocal" = "F"
-    "ProjectRef" = ""
-    "IsProject" = "F"
-    "IsSTDCALL" = "F"
-    "ExcludeFromBuild" = "F"
-    "RuntimeLink" = "F"
-    "Platforms" = "3"
-    "ReferenceName" = "C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\System.dll"
-    "ReferencePath" = "C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\System.dll"
-    }
-    "C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\System.Data.dll"
-    {
-    "CopyLocal" = "F"
-    "ProjectRef" = ""
-    "IsProject" = "F"
-    "IsSTDCALL" = "F"
-    "ExcludeFromBuild" = "F"
-    "RuntimeLink" = "F"
-    "Platforms" = "3"
-    "ReferenceName" = "C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\System.Data.dll"
-    "ReferencePath" = "C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\System.Data.dll"
-    }
-    "C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\System.XML.dll"
-    {
-    "CopyLocal" = "F"
-    "ProjectRef" = ""
-    "IsProject" = "F"
-    "IsSTDCALL" = "F"
-    "ExcludeFromBuild" = "F"
-    "RuntimeLink" = "F"
-    "Platforms" = "3"
-    "ReferenceName" = "C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\System.XML.dll"
-    "ReferencePath" = "C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\System.XML.dll"
-    }
 }

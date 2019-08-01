@@ -575,7 +575,7 @@ subroutine update(success_code)
 
 
 	! Output potential and actual sediment out flux at boundaries
-    if (year < startYear + beachZeroDelay) then
+    if (year > startYear + beachZeroDelay) then
          write(saveSedFluxLeftUnit,"(F14.2)") left_sediment_flux
          write(savePotSedFluxLeftUnit,"(F14.2)") pot_left_sediment_flux
          write(saveSedFluxRightUnit,"(F14.2)") right_sediment_flux
